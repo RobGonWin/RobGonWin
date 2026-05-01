@@ -1,0 +1,246 @@
+name: Update recent GitHub activity
+
+on:
+  schedule:
+    # Daily at 13:23 UTC.
+    - cron: "23 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-activity:
+    name: Update README recent activity section
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update README activity block
+        env:
+          GH_USERNAME: RobGonWin
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_FILE: README.md
+          MAX_LINES: "5"
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import re
+          import urllib.request
+          from datetime import datetime
+
+          username = os.environ["GH_USERNAME"]
+          token = os.environ.get("GH_TOKEN", "")
+          target_file = os.environ.get("TARGET_FILE", "README.md")
+          max_lines = int(os.environ.get("MAX_LINES", "5"))
+
+          start_marker = "<!--RECENT_ACTIVITY:start-->"
+          end_marker = "<!--RECENT_ACTIVITY:end-->"
+
+          if not os.path.exists(target_file):
+              raise FileNotFoundError(f"{target_file} does not exist")
+
+          with open(target_file, "r", encoding="utf-8") as f:
+              readme = f.read()
+
+          if start_marker not in readme or end_marker not in readme:
+              raise RuntimeError(
+                  f"Missing markers in {target_file}. Add:\n"
+                  f"{start_marker}\n{end_marker}"
+              )
+
+          url = f"https://api.github.com/users/{username}/events/public?per_page=30"
+
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "User-Agent": "RobGonWin-Profile-README-Activity-Updater/1.0",
+          }
+
+          if token:
+              headers["Authorization"] = f"Bearer {token}"
+
+          request = urllib.request.Request(url, headers=headers)
+
+          with urllib.request.urlopen(request, timeout=25) as response:
+              events = json.loads(response.read().decode("utf-8"))
+
+          def clean(text: str, limit: int = 80) -> str:
+              text = re.sub(r"\s+", " ", str(text)).strip()
+              return text if len(text) <= limit else text[: limit - 1] + "…"
+
+          def repo_link(repo_name: str) -> str:
+              return f"[{repo_name}](https://github.com/{repo_name})"
+
+          lines = []
+
+          for event in events:
+              event_type = event.get("type", "")
+              repo = event.get("repo", {}).get("name", "")
+              payload = event.get("payload", {}) or {}
+
+              if not repo:
+                  continue
+
+              if event_type == "PushEvent":
+                  commits = payload.get("commits", []) or []
+                  count = len(commits)
+                  first_msg = clean(commits[0].get("message", "commit")) if commits else "commit"
+                  label = "commit" if count == 1 else "commits"
+                  lines.append(f"- Pushed {count} {label} to {repo_link(repo)} — `{first_msg}`")
+
+              elif event_type == "CreateEvent":
+                  ref_type = payload.get("ref_type", "resource")
+                  ref = payload.get("ref")
+                  if ref:
+                      lines.append(f"- Created {ref_type} `{ref}` in {repo_link(repo)}")
+                  else:
+                      lines.append(f"- Created {ref_type} in {repo_link(repo)}")
+
+              elif event_type == "PullRequestEvent":
+                  action = payload.get("action", "updated")
+                  pr = payload.get("pull_request", {}) or {}
+                  title = clean(pr.get("title", "pull request"))
+                  html_url = pr.get("html_url", f"https://github.com/{repo}/pulls")
+                  lines.append(f"- {action.capitalize()} PR [{title}]({html_url}) in {repo_link(repo)}")
+
+              elif event_type == "IssuesEvent":
+                  action = payload.get("action", "updated")
+                  issue = payload.get("issue", {}) or {}
+                  title = clean(issue.get("title", "issue"))
+                  html_url = issue.get("html_url", f"https://github.com/{repo}/issues")
+                  lines.append(f"- {action.capitalize()} issue [{title}]({html_url}) in {repo_link(repo)}")
+
+              elif event_type == "IssueCommentEvent":
+                  action = payload.get("action", "commented on")
+                  issue = payload.get("issue", {}) or {}
+                  title = clean(issue.get("title", "issue"))
+                  html_url = issue.get("html_url", f"https://github.com/{repo}/issues")
+                  lines.append(f"- {action.capitalize()} [{title}]({html_url}) in {repo_link(repo)}")
+
+              elif event_type == "ReleaseEvent":
+                  action = payload.get("action", "published")
+                  release = payload.get("release", {}) or {}
+                  tag = clean(release.get("tag_name", "release"))
+                  html_url = release.get("html_url", f"https://github.com/{repo}/releases")
+                  lines.append(f"- {action.capitalize()} release [{tag}]({html_url}) in {repo_link(repo)}")
+
+              elif event_type == "WatchEvent":
+                  lines.append(f"- Starred {repo_link(repo)}")
+
+              elif event_type == "ForkEvent":
+                  forkee = payload.get("forkee", {}) or {}
+                  full_name = forkee.get("full_name")
+                  if full_name:
+                      lines.append(f"- Forked {repo_link(repo)} to {repo_link(full_name)}")
+                  else:
+                      lines.append(f"- Forked {repo_link(repo)}")
+
+              if len(lines) >= max_lines:
+                  break
+
+          if not lines:
+              lines = ["- No recent public GitHub activity found."]
+
+          generated = "\n".join(lines)
+          replacement = f"{start_marker}\n{generated}\n{end_marker}"
+
+          pattern = re.compile(
+              re.escape(start_marker) + r".*?" + re.escape(end_marker),
+              flags=re.DOTALL,
+          )
+
+          updated = pattern.sub(replacement, readme)
+
+          with open(target_file, "w", encoding="utf-8") as f:
+              f.write(updated)
+
+          print("Updated recent activity block:")
+          print(generated)
+          PY
+
+      - name: Update README auto-update footer
+        env:
+          TARGET_FILE: README.md
+          README_UPDATE_HOUR_UTC: "13"
+          README_UPDATE_MINUTE_UTC: "23"
+        run: |
+          python - <<'PY'
+          import os
+          import re
+          from datetime import datetime, timedelta, timezone
+          from zoneinfo import ZoneInfo
+
+          target_file = os.environ.get("TARGET_FILE", "README.md")
+          update_hour = int(os.environ.get("README_UPDATE_HOUR_UTC", "13"))
+          update_minute = int(os.environ.get("README_UPDATE_MINUTE_UTC", "23"))
+
+          start_marker = "<!--PROFILE_UPDATE:start-->"
+          end_marker = "<!--PROFILE_UPDATE:end-->"
+
+          with open(target_file, "r", encoding="utf-8") as f:
+              readme = f.read()
+
+          if start_marker not in readme or end_marker not in readme:
+              raise RuntimeError(
+                  f"Missing profile update markers in {target_file}. Add:\n"
+                  f"{start_marker}\n"
+                  f"<p align=\"center\"><sub>Last auto-updated: pending first workflow run</sub></p>\n"
+                  f"{end_marker}"
+              )
+
+          now_utc = datetime.now(timezone.utc)
+          eastern = ZoneInfo("America/New_York")
+          now_et = now_utc.astimezone(eastern)
+
+          next_utc = now_utc.replace(
+              hour=update_hour,
+              minute=update_minute,
+              second=0,
+              microsecond=0,
+          )
+
+          if next_utc <= now_utc:
+              next_utc += timedelta(days=1)
+
+          next_et = next_utc.astimezone(eastern)
+
+          def fmt(dt):
+              return dt.strftime("%b %d, %Y · %I:%M %p %Z").replace(" 0", " ")
+
+          footer = f"""{start_marker}
+          <p align="center">
+            <sub>Last auto-updated: {fmt(now_et)} / {now_utc.strftime('%H:%M UTC')} · Next scheduled update: {fmt(next_et)} / {next_utc.strftime('%H:%M UTC')}</sub>
+          </p>
+          {end_marker}"""
+
+          pattern = re.compile(
+              re.escape(start_marker) + r".*?" + re.escape(end_marker),
+              flags=re.DOTALL,
+          )
+
+          updated = pattern.sub(footer, readme)
+
+          with open(target_file, "w", encoding="utf-8") as f:
+              f.write(updated)
+
+          print("Updated README auto-update footer.")
+          PY
+
+      - name: Commit updated README activity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No README activity changes."
+          else
+            git commit -m "Update recent GitHub activity"
+            git push
+          fi
+
+    

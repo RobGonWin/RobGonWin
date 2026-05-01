@@ -1,0 +1,114 @@
+name: Update Roblox metrics
+
+on:
+  schedule:
+    # Daily at 12:17 UTC. Avoids the top-of-hour Actions rush.
+    - cron: "17 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-roblox-metrics:
+    name: Fetch Roblox public metrics
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Roblox follower and game metrics
+        run: |
+          mkdir -p assets/metrics
+
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+          from datetime import datetime, timezone
+
+          ROBLOX_USER_ID = "19479054"
+          EDIT_ARENA_UNIVERSE_ID = "5112018969"
+
+          OUTPUT_PATH = "assets/metrics/roblox.json"
+
+          previous = {}
+          if os.path.exists(OUTPUT_PATH):
+              try:
+                  with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
+                      previous = json.load(f)
+              except Exception:
+                  previous = {}
+
+          def fetch_json(url: str) -> dict:
+              request = urllib.request.Request(
+                  url,
+                  headers={
+                      "User-Agent": "RobGonWin-GitHub-Profile-Metrics/1.0",
+                      "Accept": "application/json",
+                  },
+              )
+              with urllib.request.urlopen(request, timeout=25) as response:
+                  return json.loads(response.read().decode("utf-8"))
+
+          result = {
+              "robloxUserId": int(ROBLOX_USER_ID),
+              "editArenaUniverseId": int(EDIT_ARENA_UNIVERSE_ID),
+              "robloxFollowers": previous.get("robloxFollowers", 0),
+              "editArenaVisits": previous.get("editArenaVisits", 0),
+              "editArenaPlaying": previous.get("editArenaPlaying", 0),
+              "editArenaFavorites": previous.get("editArenaFavorites", 0),
+              "updatedAt": datetime.now(timezone.utc).isoformat(),
+              "status": "ok",
+          }
+
+          errors = []
+
+          try:
+              followers_url = f"https://friends.roblox.com/v1/users/{ROBLOX_USER_ID}/followers/count"
+              followers_payload = fetch_json(followers_url)
+              result["robloxFollowers"] = int(followers_payload.get("count", result["robloxFollowers"]))
+          except Exception as exc:
+              errors.append(f"followers: {exc}")
+
+          try:
+              games_url = f"https://games.roblox.com/v1/games?universeIds={EDIT_ARENA_UNIVERSE_ID}"
+              games_payload = fetch_json(games_url)
+              game = (games_payload.get("data") or [{}])[0]
+
+              result["editArenaVisits"] = int(game.get("visits", result["editArenaVisits"]) or 0)
+              result["editArenaPlaying"] = int(game.get("playing", result["editArenaPlaying"]) or 0)
+
+              # Some Roblox game payloads include favoritedCount; keep it optional.
+              if "favoritedCount" in game:
+                  result["editArenaFavorites"] = int(game.get("favoritedCount") or 0)
+          except Exception as exc:
+              errors.append(f"game: {exc}")
+
+          if errors:
+              result["status"] = "partial_error"
+              result["errors"] = errors
+          else:
+              result.pop("errors", None)
+
+          with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+              json.dump(result, f, indent=2)
+              f.write("\n")
+
+          print(json.dumps(result, indent=2))
+          PY
+
+      - name: Commit updated Roblox metrics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/metrics/roblox.json
+
+          if git diff --cached --quiet; then
+            echo "No Roblox metric changes."
+          else
+            git commit -m "Update Roblox profile metrics"
+            git push
+          fi

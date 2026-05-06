@@ -158,15 +158,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Starred [ArcInstitute/evo2](https://github.com/ArcInstitute/evo2)
 - Starred [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
 - Pushed 0 commits to [RobGonWin/biofeedback-signal-lab](https://github.com/RobGonWin/biofeedback-signal-lab) — `commit`
 - Pushed 0 commits to [RobGonWin/gh-archive-systems-ops-analytics](https://github.com/RobGonWin/gh-archive-systems-ops-analytics) — `commit`
 - Pushed 0 commits to [RobGonWin/growth-metrics-pageview-pipeline](https://github.com/RobGonWin/growth-metrics-pageview-pipeline) — `commit`
-- Pushed 0 commits to [RobGonWin/opendota-liveops-telemetry-warehouse](https://github.com/RobGonWin/opendota-liveops-telemetry-warehouse) — `commit`
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: May 4, 2026 · 11:25 AM EDT / 15:25 UTC · Next scheduled update: May 5, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: May 6, 2026 · 11:37 AM EDT / 15:37 UTC · Next scheduled update: May 7, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

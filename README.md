@@ -158,15 +158,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Starred [youssefadly237/yt-comment-dl](https://github.com/youssefadly237/yt-comment-dl)
+- Starred [egbertbouman/youtube-comment-downloader](https://github.com/egbertbouman/youtube-comment-downloader)
+- Starred [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- Starred [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile)
 - Starred [ArcInstitute/evo2](https://github.com/ArcInstitute/evo2)
-- Starred [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
-- Pushed 0 commits to [RobGonWin/biofeedback-signal-lab](https://github.com/RobGonWin/biofeedback-signal-lab) — `commit`
-- Pushed 0 commits to [RobGonWin/gh-archive-systems-ops-analytics](https://github.com/RobGonWin/gh-archive-systems-ops-analytics) — `commit`
-- Pushed 0 commits to [RobGonWin/growth-metrics-pageview-pipeline](https://github.com/RobGonWin/growth-metrics-pageview-pipeline) — `commit`
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: May 9, 2026 · 10:32 AM EDT / 14:32 UTC · Next scheduled update: May 10, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: May 10, 2026 · 10:33 AM EDT / 14:33 UTC · Next scheduled update: May 11, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

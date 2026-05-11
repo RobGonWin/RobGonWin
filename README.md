@@ -158,15 +158,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Starred [BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds)
 - Starred [youssefadly237/yt-comment-dl](https://github.com/youssefadly237/yt-comment-dl)
 - Starred [egbertbouman/youtube-comment-downloader](https://github.com/egbertbouman/youtube-comment-downloader)
 - Starred [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - Starred [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile)
-- Starred [ArcInstitute/evo2](https://github.com/ArcInstitute/evo2)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: May 10, 2026 · 10:33 AM EDT / 14:33 UTC · Next scheduled update: May 11, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: May 11, 2026 · 12:12 PM EDT / 16:12 UTC · Next scheduled update: May 12, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

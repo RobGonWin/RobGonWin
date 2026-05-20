@@ -167,6 +167,6 @@ I am highly research-curious, focusing on the intersection of **human physiology
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: May 19, 2026 · 12:32 PM EDT / 16:32 UTC · Next scheduled update: May 20, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: May 20, 2026 · 12:31 PM EDT / 16:31 UTC · Next scheduled update: May 21, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

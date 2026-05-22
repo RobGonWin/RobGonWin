@@ -163,8 +163,8 @@ I am highly research-curious, focusing on the intersection of **human physiology
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/VoiceOps%207d%20intents-11-111111?style=flat-square&labelColor=000000" alt="VoiceOps 7d intents" />
-  <img src="https://img.shields.io/badge/VoiceOps%207d%20success-54.5%25-111111?style=flat-square&labelColor=000000" alt="VoiceOps 7d success rate" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FRobGonWin%2FRobGonWin%2Fmain%2Fassets%2Fmetrics%2Fdeving_gene_voiceops_profile.public.json&query=%24.shields.intent_count_7d&label=VoiceOps%207d%20intents&style=flat-square&color=111111&labelColor=000000" alt="VoiceOps 7d intents" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FRobGonWin%2FRobGonWin%2Fmain%2Fassets%2Fmetrics%2Fdeving_gene_voiceops_profile.public.json&query=%24.shields.success_rate_pct_7d&suffix=%25&label=VoiceOps%207d%20success&style=flat-square&color=111111&labelColor=000000" alt="VoiceOps 7d success rate" />
 </p>
 
 | Window | Allowed intents | Success | Pending reviews | Policy-blocked | Avg latency |

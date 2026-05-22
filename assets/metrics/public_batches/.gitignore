@@ -1,0 +1,10 @@
+# Ignore voice ops batch files that contain "smapi" in their name
+*smapi*.json
+
+# Optionally, ignore normalized files that have json (could have paths in the name) (note: not big of a deal since we already synced normalized files in standard outputs/ directory, but just in case someone wants to do it)
+#*normalized*.json
+
+# Optionally, ignore the table .md preview (don't know why you'd do this, but we give people the option to comment this out)
+#*block*.md
+
+# SVG cards in this tree are public-safe profile cards and are intentionally published.

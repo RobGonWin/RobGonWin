@@ -1,0 +1,191 @@
+{
+  "schema_version": "voiceops_profile_metrics.v1",
+  "updated_at_utc": "2026-05-19T01:59:12Z",
+  "source": "alexa_metrics_v1_ask_cli_smapi_batch",
+  "privacy_level": "public_aggregate_only",
+  "import_sources": {
+    "local_voiceops_rollup": false,
+    "alexa_metrics_v2": true
+  },
+  "alexa_metrics_v2": {
+    "enabled": true,
+    "last_imported_at_utc": "2026-05-19T01:59:12Z",
+    "window_days": 77,
+    "stage": "development",
+    "locale": "en-US",
+    "start_date": "2025-03-01",
+    "end_date": "2025-05-16",
+    "imported_allowed_intent_count": 5206,
+    "alexa_metrics_api_request_count": 870,
+    "private_metric_summary": {
+      "uniqueCustomers": {
+        "metric_name": "uniqueCustomers",
+        "total": 105
+      },
+      "totalEnablements": {
+        "metric_name": "totalEnablements",
+        "total": 0
+      },
+      "totalUtterances": {
+        "metric_name": "totalUtterances",
+        "total": 5524
+      },
+      "successfulUtterances": {
+        "metric_name": "successfulUtterances",
+        "total": 5449
+      },
+      "failedUtterances": {
+        "metric_name": "failedUtterances",
+        "total": 75
+      },
+      "totalSessions": {
+        "metric_name": "totalSessions",
+        "total": 4416
+      },
+      "successfulSessions": {
+        "metric_name": "successfulSessions",
+        "total": 3
+      },
+      "incompleteSessions": {
+        "metric_name": "incompleteSessions",
+        "total": 0
+      },
+      "userEndedSessions": {
+        "metric_name": "userEndedSessions",
+        "total": 0
+      },
+      "skillEndedSessions": {
+        "metric_name": "skillEndedSessions",
+        "total": 3
+      }
+    }
+  },
+  "windows": {
+    "today": {
+      "intent_count": 5206,
+      "success_rate": 0.9864,
+      "fallback_rate": 0.0,
+      "error_rate": 0.0136,
+      "blocked_policy_actions": 0,
+      "pending_reviews": 0,
+      "avg_handler_duration_ms": 0
+    },
+    "yesterday": {
+      "intent_count": 5206,
+      "success_rate": 0.9864,
+      "fallback_rate": 0.0,
+      "error_rate": 0.0136,
+      "blocked_policy_actions": 0,
+      "pending_reviews": 0,
+      "avg_handler_duration_ms": 0
+    },
+    "last_7d": {
+      "intent_count": 5206,
+      "success_rate": 0.9864,
+      "fallback_rate": 0.0,
+      "error_rate": 0.0136,
+      "blocked_policy_actions": 0,
+      "pending_reviews": 0,
+      "avg_handler_duration_ms": 0
+    },
+    "last_30d": {
+      "intent_count": 5206,
+      "success_rate": 0.9864,
+      "fallback_rate": 0.0,
+      "error_rate": 0.0136,
+      "blocked_policy_actions": 0,
+      "pending_reviews": 0,
+      "avg_handler_duration_ms": 0
+    },
+    "last_365d": {
+      "intent_count": 5206,
+      "success_rate": 0.9864,
+      "fallback_rate": 0.0,
+      "error_rate": 0.0136,
+      "blocked_policy_actions": 0,
+      "pending_reviews": 0,
+      "avg_handler_duration_ms": 0
+    }
+  },
+  "shields": {
+    "intent_count_7d": 5206,
+    "success_rate_pct_7d": 98.6,
+    "pending_reviews_7d": 0,
+    "blocked_policy_actions_7d": 0,
+    "avg_handler_duration_ms_7d": 0,
+    "top_intent_7d": "RoomOccupancyIntent"
+  },
+  "top_intents_7d": [
+    {
+      "intent_name": "RoomOccupancyIntent",
+      "count": 1656
+    },
+    {
+      "intent_name": "PomodoroStatusIntent",
+      "count": 509
+    },
+    {
+      "intent_name": "PCAwakeIntent",
+      "count": 460
+    },
+    {
+      "intent_name": "ReflectionIntent",
+      "count": 430
+    },
+    {
+      "intent_name": "CurrentTaskIntent",
+      "count": 402
+    },
+    {
+      "intent_name": "StartPomodoroTimerIntent",
+      "count": 286
+    },
+    {
+      "intent_name": "NextTasksIntent",
+      "count": 218
+    },
+    {
+      "intent_name": "AMAZON.YesIntent",
+      "count": 185
+    },
+    {
+      "intent_name": "ProcrastinationIntent",
+      "count": 183
+    },
+    {
+      "intent_name": "AMAZON.FallbackIntent",
+      "count": 128
+    }
+  ],
+  "daypart_usage_today": [
+    {
+      "label": "Morning",
+      "count": 0,
+      "bar": ""
+    },
+    {
+      "label": "Midday",
+      "count": 0,
+      "bar": ""
+    },
+    {
+      "label": "Afternoon",
+      "count": 0,
+      "bar": ""
+    },
+    {
+      "label": "Evening",
+      "count": 0,
+      "bar": ""
+    },
+    {
+      "label": "Late",
+      "count": 0,
+      "bar": ""
+    }
+  ],
+  "public_notes": [
+    "Batch profile generated from public-safe Alexa Metrics aggregate counts.",
+    "No raw voice text, speech markup, private names, machine paths, tunnel links, or credentials are exported."
+  ]
+}

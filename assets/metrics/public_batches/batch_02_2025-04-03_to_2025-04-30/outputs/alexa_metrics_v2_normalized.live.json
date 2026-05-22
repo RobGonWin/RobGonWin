@@ -1,0 +1,219 @@
+{
+  "schema_version": "alexa_metrics_v2_normalized.v1",
+  "source": "alexa_metrics_v1_ask_cli_smapi",
+  "enabled": true,
+  "last_imported_at_utc": "2026-05-19T01:59:12Z",
+  "window_days": 28,
+  "start_date": "2025-04-03",
+  "end_date": "2025-04-30",
+  "date_ranges": [
+    {
+      "batch_index": 2,
+      "start_date": "2025-04-03",
+      "end_date": "2025-04-30",
+      "day_count": 28,
+      "smapi_v1_window_count": 4
+    }
+  ],
+  "date_range_overlaps": [],
+  "smapi_v1_window_days": 7,
+  "smapi_v1_window_count": 8,
+  "stage": "development",
+  "locale": "en-US",
+  "metric_namespace": "Alexa.Custom",
+  "metric_name": "totalUtterances",
+  "aggregation_period": "BY_DAY",
+  "metric_suite": "extensive",
+  "intent_scope": "cache-derived",
+  "alexa_metrics_api_request_count": 464,
+  "skipped_metric_count": 0,
+  "skipped_metrics": [],
+  "imported_allowed_intent_count": 3350,
+  "allowed_intents": [
+    {
+      "intent_name": "RoomOccupancyIntent",
+      "count": 724
+    },
+    {
+      "intent_name": "PomodoroStatusIntent",
+      "count": 442
+    },
+    {
+      "intent_name": "PCAwakeIntent",
+      "count": 414
+    },
+    {
+      "intent_name": "StartPomodoroTimerIntent",
+      "count": 262
+    },
+    {
+      "intent_name": "CurrentTaskIntent",
+      "count": 254
+    },
+    {
+      "intent_name": "ReflectionIntent",
+      "count": 244
+    },
+    {
+      "intent_name": "AMAZON.YesIntent",
+      "count": 152
+    },
+    {
+      "intent_name": "NextTasksIntent",
+      "count": 138
+    },
+    {
+      "intent_name": "CancelPomodoroIntent",
+      "count": 98
+    },
+    {
+      "intent_name": "ClearSessionIntent",
+      "count": 98
+    },
+    {
+      "intent_name": "ProcrastinationIntent",
+      "count": 98
+    },
+    {
+      "intent_name": "AMAZON.FallbackIntent",
+      "count": 84
+    },
+    {
+      "intent_name": "BreakManagerIntent",
+      "count": 64
+    },
+    {
+      "intent_name": "AMAZON.NoIntent",
+      "count": 42
+    },
+    {
+      "intent_name": "CurrentBlockTipIntent",
+      "count": 42
+    },
+    {
+      "intent_name": "JumpBlockForwardIntent",
+      "count": 40
+    },
+    {
+      "intent_name": "StartBlockIntent",
+      "count": 40
+    },
+    {
+      "intent_name": "DayScheduleIntent",
+      "count": 34
+    },
+    {
+      "intent_name": "JumpBlockBackIntent",
+      "count": 14
+    },
+    {
+      "intent_name": "TestDayIntent",
+      "count": 10
+    },
+    {
+      "intent_name": "BlockChoiceIntent",
+      "count": 8
+    },
+    {
+      "intent_name": "RestartPomodoroIntent",
+      "count": 8
+    },
+    {
+      "intent_name": "TrelloMostRelevantCardProgressIntent",
+      "count": 8
+    },
+    {
+      "intent_name": "ResumeSessionIntent",
+      "count": 6
+    },
+    {
+      "intent_name": "TrelloTasksIntent",
+      "count": 6
+    },
+    {
+      "intent_name": "AMAZON.CancelIntent",
+      "count": 4
+    },
+    {
+      "intent_name": "MusicPlayIntent",
+      "count": 4
+    },
+    {
+      "intent_name": "WeeklyScheduleIntent",
+      "count": 4
+    },
+    {
+      "intent_name": "AMAZON.HelpIntent",
+      "count": 2
+    },
+    {
+      "intent_name": "AMAZON.PauseIntent",
+      "count": 2
+    },
+    {
+      "intent_name": "AMAZON.StopIntent",
+      "count": 2
+    },
+    {
+      "intent_name": "HelloWorldIntent",
+      "count": 2
+    }
+  ],
+  "private_metric_summary": {
+    "uniqueCustomers": {
+      "metric_name": "uniqueCustomers",
+      "total": 56
+    },
+    "totalEnablements": {
+      "metric_name": "totalEnablements",
+      "total": 0
+    },
+    "totalUtterances": {
+      "metric_name": "totalUtterances",
+      "total": 3594
+    },
+    "successfulUtterances": {
+      "metric_name": "successfulUtterances",
+      "total": 3540
+    },
+    "failedUtterances": {
+      "metric_name": "failedUtterances",
+      "total": 54
+    },
+    "totalSessions": {
+      "metric_name": "totalSessions",
+      "total": 2736
+    },
+    "successfulSessions": {
+      "metric_name": "successfulSessions",
+      "total": 2
+    },
+    "incompleteSessions": {
+      "metric_name": "incompleteSessions",
+      "total": 0
+    },
+    "userEndedSessions": {
+      "metric_name": "userEndedSessions",
+      "total": 0
+    },
+    "skillEndedSessions": {
+      "metric_name": "skillEndedSessions",
+      "total": 2
+    }
+  },
+  "public_notes": [
+    "Offline batch artifact synthesized from an Alexa Metrics SMAPI v1 cache file.",
+    "No live Alexa API calls were made during this synthesis.",
+    "No raw voice text, speech markup, private paths, tunnel links, or credentials are exported."
+  ],
+  "batch": {
+    "batch_index": 2,
+    "start_date": "2025-04-03",
+    "end_date": "2025-04-30",
+    "day_count": 28,
+    "smapi_v1_window_count": 4,
+    "normalized_live_path": "REDACTED_PUBLIC_EXPORT_PATH",
+    "normalized_latest_path": "REDACTED_PUBLIC_EXPORT_PATH",
+    "aggregate_cache_path": "REDACTED_PUBLIC_EXPORT_PATH"
+  }
+}

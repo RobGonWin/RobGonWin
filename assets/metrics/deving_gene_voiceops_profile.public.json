@@ -1,0 +1,130 @@
+{
+  "schema_version": "voiceops_profile_metrics.v1",
+  "updated_at_utc": "2026-05-06T20:00:00Z",
+  "source": "deving_gene_voiceops_sanitized_rollup",
+  "privacy_level": "public_aggregate_only",
+  "import_sources": {
+    "local_voiceops_rollup": true,
+    "alexa_metrics_v2": false
+  },
+  "alexa_metrics_v2": {
+    "enabled": false,
+    "last_imported_at_utc": null,
+    "window_days": 7,
+    "stage": "development",
+    "locale": "en-US",
+    "imported_allowed_intent_count": 0
+  },
+  "windows": {
+    "today": {
+      "intent_count": 2,
+      "success_rate": 1.0,
+      "fallback_rate": 0.0,
+      "error_rate": 0.0,
+      "blocked_policy_actions": 0,
+      "pending_reviews": 0,
+      "avg_handler_duration_ms": 160
+    },
+    "yesterday": {
+      "intent_count": 2,
+      "success_rate": 0.0,
+      "fallback_rate": 0.5,
+      "error_rate": 0.5,
+      "blocked_policy_actions": 0,
+      "pending_reviews": 0,
+      "avg_handler_duration_ms": 230
+    },
+    "last_7d": {
+      "intent_count": 11,
+      "success_rate": 0.545,
+      "fallback_rate": 0.182,
+      "error_rate": 0.091,
+      "blocked_policy_actions": 1,
+      "pending_reviews": 1,
+      "avg_handler_duration_ms": 175
+    },
+    "last_30d": {
+      "intent_count": 13,
+      "success_rate": 0.615,
+      "fallback_rate": 0.154,
+      "error_rate": 0.077,
+      "blocked_policy_actions": 1,
+      "pending_reviews": 1,
+      "avg_handler_duration_ms": 173
+    },
+    "last_365d": {
+      "intent_count": 13,
+      "success_rate": 0.615,
+      "fallback_rate": 0.154,
+      "error_rate": 0.077,
+      "blocked_policy_actions": 1,
+      "pending_reviews": 1,
+      "avg_handler_duration_ms": 173
+    }
+  },
+  "shields": {
+    "intent_count_7d": 11,
+    "success_rate_pct_7d": 54.5,
+    "pending_reviews_7d": 1,
+    "blocked_policy_actions_7d": 1,
+    "avg_handler_duration_ms_7d": 175,
+    "top_intent_7d": "ProjectFocusIntentHandler"
+  },
+  "top_intents_7d": [
+    {
+      "intent_name": "ProjectFocusIntentHandler",
+      "count": 4
+    },
+    {
+      "intent_name": "DayScheduleIntentHandler",
+      "count": 2
+    },
+    {
+      "intent_name": "PomodoroStatusIntentHandler",
+      "count": 2
+    },
+    {
+      "intent_name": "PCAwakeIntentHandler",
+      "count": 1
+    },
+    {
+      "intent_name": "ResumeSessionIntentHandler",
+      "count": 1
+    },
+    {
+      "intent_name": "WeeklyScheduleIntentHandler",
+      "count": 1
+    }
+  ],
+  "daypart_usage_today": [
+    {
+      "label": "Morning",
+      "count": 1,
+      "bar": "########"
+    },
+    {
+      "label": "Midday",
+      "count": 0,
+      "bar": ""
+    },
+    {
+      "label": "Afternoon",
+      "count": 1,
+      "bar": "########"
+    },
+    {
+      "label": "Evening",
+      "count": 0,
+      "bar": ""
+    },
+    {
+      "label": "Late",
+      "count": 0,
+      "bar": ""
+    }
+  ],
+  "public_notes": [
+    "Only allowlisted Alexa workflow intents are counted.",
+    "No raw voice text, speech markup, private names, machine paths, tunnel links, or credentials are exported."
+  ]
+}

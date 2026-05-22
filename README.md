@@ -105,6 +105,7 @@ I am highly research-curious, focusing on the intersection of **human physiology
 
 > **Status:** I am currently building **[Deving Gene](https://github.com/RobGonWin/deving-gene)** as my primary focus while actively seeking full-time roles across Data Analytics, Systems Engineering, and AI Platform integration.
 
+
 * **Physiological Telemetry & Biofeedback:** I am actively researching how to integrate real-time EEG and EKG data streams to monitor cognitive load and flow states. I am particularly interested in the application of devices like the **Polar H10, Muse S Athena, BrainAccess HALO, and other upcoming devices** to create adaptive, local-first environments that provide metacognitive scaffolding.
 
 
@@ -150,8 +151,97 @@ I am highly research-curious, focusing on the intersection of **human physiology
 
 ---
 
+<!--DEVING_GENE_VOICEOPS:start-->
+### Deving Gene VoiceOps Signal
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=92&section=header&color=0:111111,55:232f3e,100:00a8e1&text=Alexa%20VoiceOps%20Timeline&fontSize=30&fontColor=ffffff&desc=Public-safe%20SMAPI%20metrics%20wrapup&descSize=13&descAlignY=72" alt="Alexa VoiceOps timeline" />
+</p>
+
+<p align="center">
+  <img src="assets/metrics/deving_gene_voiceops_profile_card.svg" alt="Deving Gene VoiceOps sanitized telemetry card" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/VoiceOps%207d%20intents-11-111111?style=flat-square&labelColor=000000" alt="VoiceOps 7d intents" />
+  <img src="https://img.shields.io/badge/VoiceOps%207d%20success-54.5%25-111111?style=flat-square&labelColor=000000" alt="VoiceOps 7d success rate" />
+</p>
+
+| Window | Allowed intents | Success | Pending reviews | Policy-blocked | Avg latency |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Today | 2 | 100.0% | 0 | 0 | 160 ms |
+| Yesterday | 2 | 0.0% | 0 | 0 | 230 ms |
+| Last 7d | 11 | 54.5% | 1 | 1 | 175 ms |
+| Last 30d | 13 | 61.5% | 1 | 1 | 173 ms |
+| Last 365d | 13 | 61.5% | 1 | 1 | 173 ms |
+
+<sub>Top allowed intents, last 7d: ProjectFocusIntentHandler (4), DayScheduleIntentHandler (2), PomodoroStatusIntentHandler (2).</sub>
+
+#### Public Alexa Metrics Timeline
+
+<sub>4 public batches &middot; 9808 imported allowed intents &middot; 1914 saved Alexa Metrics API requests &middot; no live API calls during README refresh.</sub>
+
+| Batch | Window | Stage | Locale | Allowed intents | API requests | Top intent | Links |
+| --- | --- | --- | --- | ---: | ---: | --- | --- |
+| batch_01_2025-03-01_to_2025-05-16 | 2025-03-01 to 2025-05-16 | development | en-US | 5206 | 870 | RoomOccupancyIntent (1656) | <a href="assets/metrics/public_batches/batch_01_2025-03-01_to_2025-05-16/outputs/deving_gene_voiceops_profile.public.json">profile</a> / <a href="assets/metrics/public_batches/batch_01_2025-03-01_to_2025-05-16/outputs/alexa_metrics_v2_normalized.latest.json">latest</a> / <a href="assets/metrics/public_batches/batch_01_2025-03-01_to_2025-05-16/outputs/deving_gene_voiceops_profile_card.svg">card</a> / <a href="assets/metrics/public_batches/batch_01_2025-03-01_to_2025-05-16/outputs/deving_gene_voiceops_profile_block.md">block</a> |
+| batch_02_2025-04-03_to_2025-04-30 | 2025-04-03 to 2025-04-30 | development | en-US | 3350 | 464 | RoomOccupancyIntent (724) | <a href="assets/metrics/public_batches/batch_02_2025-04-03_to_2025-04-30/outputs/deving_gene_voiceops_profile.public.json">profile</a> / <a href="assets/metrics/public_batches/batch_02_2025-04-03_to_2025-04-30/outputs/alexa_metrics_v2_normalized.latest.json">latest</a> / <a href="assets/metrics/public_batches/batch_02_2025-04-03_to_2025-04-30/outputs/deving_gene_voiceops_profile_card.svg">card</a> / <a href="assets/metrics/public_batches/batch_02_2025-04-03_to_2025-04-30/outputs/deving_gene_voiceops_profile_block.md">block</a> |
+| batch_03_2025-07-01_to_2025-07-31 | 2025-07-01 to 2025-07-31 | development | en-US | 625 | 290 | RoomOccupancyIntent (248) | <a href="assets/metrics/public_batches/batch_03_2025-07-01_to_2025-07-31/outputs/deving_gene_voiceops_profile.public.json">profile</a> / <a href="assets/metrics/public_batches/batch_03_2025-07-01_to_2025-07-31/outputs/alexa_metrics_v2_normalized.latest.json">latest</a> / <a href="assets/metrics/public_batches/batch_03_2025-07-01_to_2025-07-31/outputs/deving_gene_voiceops_profile_card.svg">card</a> / <a href="assets/metrics/public_batches/batch_03_2025-07-01_to_2025-07-31/outputs/deving_gene_voiceops_profile_block.md">block</a> |
+| batch_04_2025-08-30_to_2025-09-30 | 2025-08-30 to 2025-09-30 | development | en-US | 627 | 290 | RoomOccupancyIntent (357) | <a href="assets/metrics/public_batches/batch_04_2025-08-30_to_2025-09-30/outputs/deving_gene_voiceops_profile.public.json">profile</a> / <a href="assets/metrics/public_batches/batch_04_2025-08-30_to_2025-09-30/outputs/alexa_metrics_v2_normalized.latest.json">latest</a> / <a href="assets/metrics/public_batches/batch_04_2025-08-30_to_2025-09-30/outputs/deving_gene_voiceops_profile_card.svg">card</a> / <a href="assets/metrics/public_batches/batch_04_2025-08-30_to_2025-09-30/outputs/deving_gene_voiceops_profile_block.md">block</a> |
+
+<details><summary>Batch 1 - March 1st, 2025->May 16th, 2025</summary>
+
+<p align="center"><img src="assets/metrics/public_batches/batch_01_2025-03-01_to_2025-05-16/outputs/deving_gene_voiceops_profile_card.svg" alt="batch_01_2025-03-01_to_2025-05-16 VoiceOps card" /></p>
+
+- **Stage / locale:** development / en-US
+- **Imported allowed intents:** 5206
+- **Alexa Metrics API requests:** 870
+- **Top intents:** RoomOccupancyIntent (1656), PomodoroStatusIntent (509), PCAwakeIntent (460), ReflectionIntent (430), CurrentTaskIntent (402), StartPomodoroTimerIntent (286), NextTasksIntent (218), AMAZON.YesIntent (185), ProcrastinationIntent (183), AMAZON.FallbackIntent (128)
+- **Public artifacts:** <a href="assets/metrics/public_batches/batch_01_2025-03-01_to_2025-05-16/outputs/deving_gene_voiceops_profile.public.json">profile JSON</a> &middot; <a href="assets/metrics/public_batches/batch_01_2025-03-01_to_2025-05-16/outputs/alexa_metrics_v2_normalized.latest.json">latest normalized JSON</a> &middot; <a href="assets/metrics/public_batches/batch_01_2025-03-01_to_2025-05-16/outputs/alexa_metrics_v2_normalized.live.json">live normalized JSON</a> &middot; <a href="assets/metrics/public_batches/batch_01_2025-03-01_to_2025-05-16/outputs/deving_gene_voiceops_profile_card.svg">SVG card</a> &middot; <a href="assets/metrics/public_batches/batch_01_2025-03-01_to_2025-05-16/outputs/deving_gene_voiceops_profile_block.md">rendered block</a>
+
+</details>
+
+<details><summary>Batch 2 - April 3rd, 2025->April 30th, 2025</summary>
+
+<p align="center"><img src="assets/metrics/public_batches/batch_02_2025-04-03_to_2025-04-30/outputs/deving_gene_voiceops_profile_card.svg" alt="batch_02_2025-04-03_to_2025-04-30 VoiceOps card" /></p>
+
+- **Stage / locale:** development / en-US
+- **Imported allowed intents:** 3350
+- **Alexa Metrics API requests:** 464
+- **Top intents:** RoomOccupancyIntent (724), PomodoroStatusIntent (442), PCAwakeIntent (414), StartPomodoroTimerIntent (262), CurrentTaskIntent (254), ReflectionIntent (244), AMAZON.YesIntent (152), NextTasksIntent (138), CancelPomodoroIntent (98), ClearSessionIntent (98)
+- **Public artifacts:** <a href="assets/metrics/public_batches/batch_02_2025-04-03_to_2025-04-30/outputs/deving_gene_voiceops_profile.public.json">profile JSON</a> &middot; <a href="assets/metrics/public_batches/batch_02_2025-04-03_to_2025-04-30/outputs/alexa_metrics_v2_normalized.latest.json">latest normalized JSON</a> &middot; <a href="assets/metrics/public_batches/batch_02_2025-04-03_to_2025-04-30/outputs/alexa_metrics_v2_normalized.live.json">live normalized JSON</a> &middot; <a href="assets/metrics/public_batches/batch_02_2025-04-03_to_2025-04-30/outputs/deving_gene_voiceops_profile_card.svg">SVG card</a> &middot; <a href="assets/metrics/public_batches/batch_02_2025-04-03_to_2025-04-30/outputs/deving_gene_voiceops_profile_block.md">rendered block</a>
+
+</details>
+
+<details><summary>Batch 3 - July 1st, 2025->July 31st, 2025</summary>
+
+<p align="center"><img src="assets/metrics/public_batches/batch_03_2025-07-01_to_2025-07-31/outputs/deving_gene_voiceops_profile_card.svg" alt="batch_03_2025-07-01_to_2025-07-31 VoiceOps card" /></p>
+
+- **Stage / locale:** development / en-US
+- **Imported allowed intents:** 625
+- **Alexa Metrics API requests:** 290
+- **Top intents:** RoomOccupancyIntent (248), ReflectionIntent (105), ProcrastinationIntent (52), CurrentTaskIntent (34), AutoStartIntent (28), AMAZON.YesIntent (21), ClearSessionIntent (21), NextTasksIntent (19), PomodoroStatusIntent (18), JumpBlockBackIntent (17)
+- **Public artifacts:** <a href="assets/metrics/public_batches/batch_03_2025-07-01_to_2025-07-31/outputs/deving_gene_voiceops_profile.public.json">profile JSON</a> &middot; <a href="assets/metrics/public_batches/batch_03_2025-07-01_to_2025-07-31/outputs/alexa_metrics_v2_normalized.latest.json">latest normalized JSON</a> &middot; <a href="assets/metrics/public_batches/batch_03_2025-07-01_to_2025-07-31/outputs/alexa_metrics_v2_normalized.live.json">live normalized JSON</a> &middot; <a href="assets/metrics/public_batches/batch_03_2025-07-01_to_2025-07-31/outputs/deving_gene_voiceops_profile_card.svg">SVG card</a> &middot; <a href="assets/metrics/public_batches/batch_03_2025-07-01_to_2025-07-31/outputs/deving_gene_voiceops_profile_block.md">rendered block</a>
+
+</details>
+
+<details><summary>Batch 4 - August 30th, 2025->September 30th, 2025</summary>
+
+<p align="center"><img src="assets/metrics/public_batches/batch_04_2025-08-30_to_2025-09-30/outputs/deving_gene_voiceops_profile_card.svg" alt="batch_04_2025-08-30_to_2025-09-30 VoiceOps card" /></p>
+
+- **Stage / locale:** development / en-US
+- **Imported allowed intents:** 627
+- **Alexa Metrics API requests:** 290
+- **Top intents:** RoomOccupancyIntent (357), ReflectionIntent (91), ProcrastinationIntent (44), AutoStartIntent (19), CurrentTaskIntent (18), AMAZON.FallbackIntent (16), PomodoroStatusIntent (12), AMAZON.NoIntent (10), DayScheduleIntent (10), NextTasksIntent (10)
+- **Public artifacts:** <a href="assets/metrics/public_batches/batch_04_2025-08-30_to_2025-09-30/outputs/deving_gene_voiceops_profile.public.json">profile JSON</a> &middot; <a href="assets/metrics/public_batches/batch_04_2025-08-30_to_2025-09-30/outputs/alexa_metrics_v2_normalized.latest.json">latest normalized JSON</a> &middot; <a href="assets/metrics/public_batches/batch_04_2025-08-30_to_2025-09-30/outputs/alexa_metrics_v2_normalized.live.json">live normalized JSON</a> &middot; <a href="assets/metrics/public_batches/batch_04_2025-08-30_to_2025-09-30/outputs/deving_gene_voiceops_profile_card.svg">SVG card</a> &middot; <a href="assets/metrics/public_batches/batch_04_2025-08-30_to_2025-09-30/outputs/deving_gene_voiceops_profile_block.md">rendered block</a>
+
+</details>
+
+<sub>Public aggregate only: no raw voice content, SSML, transcripts, private project names, local paths, tunnel URLs, tokens, credentials, or live Alexa credentials. Local export paths are published only as REDACTED_PUBLIC_EXPORT_PATH.</sub>
+<!--DEVING_GENE_VOICEOPS:end-->
+
+---
+
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=RobGonWin&show_icons=true&theme=transparent&title_color=111111&icon_color=111111&text_color=333333&hide_border=true&bg_color=ffffff" width="48%" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=RobGonWin&background=000000&border=333333&stroke=333333&ring=0070F3&fire=0070F3&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=0070F3&sideLabels=888888&dates=555555"" width="48%" alt="GitHub Streak" />
 </div>
 

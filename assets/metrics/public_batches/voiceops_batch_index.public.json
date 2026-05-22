@@ -1,0 +1,257 @@
+{
+  "schema_version": "voiceops_public_batch_bundle.v1",
+  "generated_at_utc": "2026-05-22T11:41:26Z",
+  "source_batch_root": "REDACTED_PUBLIC_EXPORT_PATH",
+  "batch_count": 4,
+  "batches": [
+    {
+      "batch_name": "batch_01_2025-03-01_to_2025-05-16",
+      "start_date": "2025-03-01",
+      "end_date": "2025-05-16",
+      "stage": "development",
+      "locale": "en-US",
+      "metric_suite": "extensive",
+      "intent_scope": "cache-derived",
+      "imported_allowed_intent_count": 5206,
+      "alexa_metrics_api_request_count": 870,
+      "top_intents_7d": [
+        {
+          "intent_name": "RoomOccupancyIntent",
+          "count": 1656
+        },
+        {
+          "intent_name": "PomodoroStatusIntent",
+          "count": 509
+        },
+        {
+          "intent_name": "PCAwakeIntent",
+          "count": 460
+        },
+        {
+          "intent_name": "ReflectionIntent",
+          "count": 430
+        },
+        {
+          "intent_name": "CurrentTaskIntent",
+          "count": 402
+        },
+        {
+          "intent_name": "StartPomodoroTimerIntent",
+          "count": 286
+        },
+        {
+          "intent_name": "NextTasksIntent",
+          "count": 218
+        },
+        {
+          "intent_name": "AMAZON.YesIntent",
+          "count": 185
+        },
+        {
+          "intent_name": "ProcrastinationIntent",
+          "count": 183
+        },
+        {
+          "intent_name": "AMAZON.FallbackIntent",
+          "count": 128
+        }
+      ],
+      "outputs_path": "REDACTED_PUBLIC_EXPORT_PATH",
+      "copied_files": [
+        "alexa_metrics_v2_normalized.latest.json",
+        "alexa_metrics_v2_normalized.live.json",
+        "deving_gene_voiceops_profile.public.json",
+        "deving_gene_voiceops_profile_block.md",
+        "deving_gene_voiceops_profile_card.svg"
+      ]
+    },
+    {
+      "batch_name": "batch_02_2025-04-03_to_2025-04-30",
+      "start_date": "2025-04-03",
+      "end_date": "2025-04-30",
+      "stage": "development",
+      "locale": "en-US",
+      "metric_suite": "extensive",
+      "intent_scope": "cache-derived",
+      "imported_allowed_intent_count": 3350,
+      "alexa_metrics_api_request_count": 464,
+      "top_intents_7d": [
+        {
+          "intent_name": "RoomOccupancyIntent",
+          "count": 724
+        },
+        {
+          "intent_name": "PomodoroStatusIntent",
+          "count": 442
+        },
+        {
+          "intent_name": "PCAwakeIntent",
+          "count": 414
+        },
+        {
+          "intent_name": "StartPomodoroTimerIntent",
+          "count": 262
+        },
+        {
+          "intent_name": "CurrentTaskIntent",
+          "count": 254
+        },
+        {
+          "intent_name": "ReflectionIntent",
+          "count": 244
+        },
+        {
+          "intent_name": "AMAZON.YesIntent",
+          "count": 152
+        },
+        {
+          "intent_name": "NextTasksIntent",
+          "count": 138
+        },
+        {
+          "intent_name": "CancelPomodoroIntent",
+          "count": 98
+        },
+        {
+          "intent_name": "ClearSessionIntent",
+          "count": 98
+        }
+      ],
+      "outputs_path": "REDACTED_PUBLIC_EXPORT_PATH",
+      "copied_files": [
+        "alexa_metrics_v2_normalized.latest.json",
+        "alexa_metrics_v2_normalized.live.json",
+        "deving_gene_voiceops_profile.public.json",
+        "deving_gene_voiceops_profile_block.md",
+        "deving_gene_voiceops_profile_card.svg"
+      ]
+    },
+    {
+      "batch_name": "batch_03_2025-07-01_to_2025-07-31",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-31",
+      "stage": "development",
+      "locale": "en-US",
+      "metric_suite": "extensive",
+      "intent_scope": "cache-derived",
+      "imported_allowed_intent_count": 625,
+      "alexa_metrics_api_request_count": 290,
+      "top_intents_7d": [
+        {
+          "intent_name": "RoomOccupancyIntent",
+          "count": 248
+        },
+        {
+          "intent_name": "ReflectionIntent",
+          "count": 105
+        },
+        {
+          "intent_name": "ProcrastinationIntent",
+          "count": 52
+        },
+        {
+          "intent_name": "CurrentTaskIntent",
+          "count": 34
+        },
+        {
+          "intent_name": "AutoStartIntent",
+          "count": 28
+        },
+        {
+          "intent_name": "AMAZON.YesIntent",
+          "count": 21
+        },
+        {
+          "intent_name": "ClearSessionIntent",
+          "count": 21
+        },
+        {
+          "intent_name": "NextTasksIntent",
+          "count": 19
+        },
+        {
+          "intent_name": "PomodoroStatusIntent",
+          "count": 18
+        },
+        {
+          "intent_name": "JumpBlockBackIntent",
+          "count": 17
+        }
+      ],
+      "outputs_path": "REDACTED_PUBLIC_EXPORT_PATH",
+      "copied_files": [
+        "alexa_metrics_v2_normalized.latest.json",
+        "alexa_metrics_v2_normalized.live.json",
+        "deving_gene_voiceops_profile.public.json",
+        "deving_gene_voiceops_profile_block.md",
+        "deving_gene_voiceops_profile_card.svg"
+      ]
+    },
+    {
+      "batch_name": "batch_04_2025-08-30_to_2025-09-30",
+      "start_date": "2025-08-30",
+      "end_date": "2025-09-30",
+      "stage": "development",
+      "locale": "en-US",
+      "metric_suite": "extensive",
+      "intent_scope": "cache-derived",
+      "imported_allowed_intent_count": 627,
+      "alexa_metrics_api_request_count": 290,
+      "top_intents_7d": [
+        {
+          "intent_name": "RoomOccupancyIntent",
+          "count": 357
+        },
+        {
+          "intent_name": "ReflectionIntent",
+          "count": 91
+        },
+        {
+          "intent_name": "ProcrastinationIntent",
+          "count": 44
+        },
+        {
+          "intent_name": "AutoStartIntent",
+          "count": 19
+        },
+        {
+          "intent_name": "CurrentTaskIntent",
+          "count": 18
+        },
+        {
+          "intent_name": "AMAZON.FallbackIntent",
+          "count": 16
+        },
+        {
+          "intent_name": "PomodoroStatusIntent",
+          "count": 12
+        },
+        {
+          "intent_name": "AMAZON.NoIntent",
+          "count": 10
+        },
+        {
+          "intent_name": "DayScheduleIntent",
+          "count": 10
+        },
+        {
+          "intent_name": "NextTasksIntent",
+          "count": 10
+        }
+      ],
+      "outputs_path": "REDACTED_PUBLIC_EXPORT_PATH",
+      "copied_files": [
+        "alexa_metrics_v2_normalized.latest.json",
+        "alexa_metrics_v2_normalized.live.json",
+        "deving_gene_voiceops_profile.public.json",
+        "deving_gene_voiceops_profile_block.md",
+        "deving_gene_voiceops_profile_card.svg"
+      ]
+    }
+  ],
+  "public_notes": [
+    "Public-safe Alexa Metrics batch export.",
+    "Contains aggregate counts and rendered profile assets only.",
+    "Does not include OAuth tokens, client credentials, refresh tokens, raw utterances, transcripts, or private paths."
+  ]
+}

@@ -248,15 +248,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Starred [algorithmicsuperintelligence/optillm](https://github.com/algorithmicsuperintelligence/optillm)
+- Starred [pytorch/pytorch](https://github.com/pytorch/pytorch)
+- Starred [alvinreal/awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai)
 - Starred [darusc/VCamdroid](https://github.com/darusc/VCamdroid)
 - Starred [antoKeinanen/obsidian-advanced-merger](https://github.com/antoKeinanen/obsidian-advanced-merger)
-- Pushed 0 commits to [RobGonWin/RobGonWin](https://github.com/RobGonWin/RobGonWin) — `commit`
-- Pushed 0 commits to [RobGonWin/RobGonWin](https://github.com/RobGonWin/RobGonWin) — `commit`
-- Starred [webrecorder/archiveweb.page](https://github.com/webrecorder/archiveweb.page)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: May 27, 2026 · 12:47 PM EDT / 16:47 UTC · Next scheduled update: May 28, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: May 28, 2026 · 1:03 PM EDT / 17:03 UTC · Next scheduled update: May 29, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

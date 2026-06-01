@@ -248,15 +248,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Pushed 0 commits to [RobGonWin/deving-gene](https://github.com/RobGonWin/deving-gene) — `commit`
+- Pushed 0 commits to [RobGonWin/deving-gene](https://github.com/RobGonWin/deving-gene) — `commit`
 - Starred [algorithmicsuperintelligence/optillm](https://github.com/algorithmicsuperintelligence/optillm)
 - Starred [pytorch/pytorch](https://github.com/pytorch/pytorch)
 - Starred [alvinreal/awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai)
-- Starred [darusc/VCamdroid](https://github.com/darusc/VCamdroid)
-- Starred [antoKeinanen/obsidian-advanced-merger](https://github.com/antoKeinanen/obsidian-advanced-merger)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: May 31, 2026 · 10:57 AM EDT / 14:57 UTC · Next scheduled update: Jun 1, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: Jun 1, 2026 · 3:00 PM EDT / 19:00 UTC · Next scheduled update: Jun 2, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

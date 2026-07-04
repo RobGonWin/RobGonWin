@@ -248,15 +248,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Starred [centau/vide](https://github.com/centau/vide)
 - Starred [littensy/charm](https://github.com/littensy/charm)
 - Starred [littensy/charmed-icons](https://github.com/littensy/charmed-icons)
-- Pushed 0 commits to [RobGonWin/doolittle](https://github.com/RobGonWin/doolittle) — `commit`
 - Pushed 0 commits to [RobGonWin/doolittle](https://github.com/RobGonWin/doolittle) — `commit`
 - Pushed 0 commits to [RobGonWin/doolittle](https://github.com/RobGonWin/doolittle) — `commit`
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Jul 3, 2026 · 11:27 AM EDT / 15:27 UTC · Next scheduled update: Jul 4, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: Jul 4, 2026 · 10:46 AM EDT / 14:46 UTC · Next scheduled update: Jul 5, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

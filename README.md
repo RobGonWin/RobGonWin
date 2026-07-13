@@ -248,15 +248,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Starred [dphfox/Fusion](https://github.com/dphfox/Fusion)
 - Starred [SYMBaiEX/doolittle](https://github.com/SYMBaiEX/doolittle)
 - Starred [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)
 - Starred [Roblox/creator-docs](https://github.com/Roblox/creator-docs)
 - Starred [SYMBaiEX/skills](https://github.com/SYMBaiEX/skills)
-- Starred [centau/vide](https://github.com/centau/vide)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Jul 12, 2026 · 10:37 AM EDT / 14:37 UTC · Next scheduled update: Jul 13, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: Jul 13, 2026 · 12:00 PM EDT / 16:00 UTC · Next scheduled update: Jul 14, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

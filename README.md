@@ -248,15 +248,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
-- Starred [dphfox/Fusion](https://github.com/dphfox/Fusion)
-- Starred [SYMBaiEX/doolittle](https://github.com/SYMBaiEX/doolittle)
-- Starred [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)
-- Starred [Roblox/creator-docs](https://github.com/Roblox/creator-docs)
-- Starred [SYMBaiEX/skills](https://github.com/SYMBaiEX/skills)
+- Starred [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents)
+- Starred [AgentWrapper/agent-orchestrator](https://github.com/AgentWrapper/agent-orchestrator)
+- Starred [NousResearch/autonovel](https://github.com/NousResearch/autonovel)
+- Starred [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber)
+- Starred [Atarity/deploy-your-own-saas](https://github.com/Atarity/deploy-your-own-saas)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Jul 21, 2026 · 11:18 AM EDT / 15:18 UTC · Next scheduled update: Jul 22, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: Jul 22, 2026 · 11:17 AM EDT / 15:17 UTC · Next scheduled update: Jul 23, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

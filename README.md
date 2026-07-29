@@ -250,13 +250,13 @@ I am highly research-curious, focusing on the intersection of **human physiology
 <!--RECENT_ACTIVITY:start-->
 - Starred [xmed-lab/ZEBRA](https://github.com/xmed-lab/ZEBRA)
 - Starred [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents)
-- Starred [AgentWrapper/agent-orchestrator](https://github.com/AgentWrapper/agent-orchestrator)
+- Starred [Untrivial-ai/agent-orchestrator](https://github.com/Untrivial-ai/agent-orchestrator)
 - Starred [NousResearch/autonovel](https://github.com/NousResearch/autonovel)
 - Starred [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Jul 28, 2026 · 11:36 AM EDT / 15:36 UTC · Next scheduled update: Jul 29, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: Jul 29, 2026 · 11:21 AM EDT / 15:21 UTC · Next scheduled update: Jul 30, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

@@ -248,15 +248,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Starred [MoonshotAI/kimi-code](https://github.com/MoonshotAI/kimi-code)
+- Starred [cobusgreyling/memory-engineering](https://github.com/cobusgreyling/memory-engineering)
+- Starred [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering)
 - Starred [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
 - Starred [duolahypercho/codex-router](https://github.com/duolahypercho/codex-router)
-- Starred [lalalune/outreachr](https://github.com/lalalune/outreachr)
-- Starred [elizaOS/eliza](https://github.com/elizaOS/eliza)
-- Starred [xmed-lab/ZEBRA](https://github.com/xmed-lab/ZEBRA)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Aug 18, 2026 · 9:59 AM EDT / 13:59 UTC · Next scheduled update: Aug 19, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: Aug 19, 2026 · 9:59 AM EDT / 13:59 UTC · Next scheduled update: Aug 20, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

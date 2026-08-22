@@ -248,15 +248,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Starred [frankiethull/centenarians](https://github.com/frankiethull/centenarians)
+- Starred [mesteller-bioinfolab/Supercentenarian](https://github.com/mesteller-bioinfolab/Supercentenarian)
+- Starred [diksha-agrawal-427/Data-Analysis-of-Supercentenarians](https://github.com/diksha-agrawal-427/Data-Analysis-of-Supercentenarians)
+- Starred [lbelzile/supercentenarian](https://github.com/lbelzile/supercentenarian)
 - Created branch `sync/symbaiex-d0d7f7e` in [RobGonWin/doolittle](https://github.com/RobGonWin/doolittle)
-- Starred [MoonshotAI/kimi-code](https://github.com/MoonshotAI/kimi-code)
-- Starred [cobusgreyling/memory-engineering](https://github.com/cobusgreyling/memory-engineering)
-- Starred [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering)
-- Starred [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Aug 21, 2026 · 10:00 AM EDT / 14:00 UTC · Next scheduled update: Aug 22, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: Aug 22, 2026 · 9:46 AM EDT / 13:46 UTC · Next scheduled update: Aug 23, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

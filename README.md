@@ -249,14 +249,14 @@ I am highly research-curious, focusing on the intersection of **human physiology
 
 <!--RECENT_ACTIVITY:start-->
 - Pushed 0 commits to [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter) — `commit`
-- Created branch `research/physionet-public-data` in [RobGonWin/deving-research-ecosystem](https://github.com/RobGonWin/deving-research-ecosystem)
-- Created branch `research/physiology-provenance-boundary` in [RobGonWin/memory-provenance](https://github.com/RobGonWin/memory-provenance)
-- Created branch `research/generation-cohort-audit` in [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter)
-- Pushed 0 commits to [RobGonWin/deving-research-ecosystem](https://github.com/RobGonWin/deving-research-ecosystem) — `commit`
+- Starred [proximity-prize/proximity-prize](https://github.com/proximity-prize/proximity-prize)
+- Starred [przchojecki/rs-mca](https://github.com/przchojecki/rs-mca)
+- Pushed 0 commits to [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter) — `commit`
+- Created branch `feat/private-pipeline-receipts` in [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Aug 25, 2026 · 10:06 AM EDT / 14:06 UTC · Next scheduled update: Aug 26, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: Aug 26, 2026 · 10:06 AM EDT / 14:06 UTC · Next scheduled update: Aug 27, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

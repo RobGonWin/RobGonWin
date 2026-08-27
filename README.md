@@ -249,14 +249,14 @@ I am highly research-curious, focusing on the intersection of **human physiology
 
 <!--RECENT_ACTIVITY:start-->
 - Pushed 0 commits to [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter) — `commit`
-- Starred [proximity-prize/proximity-prize](https://github.com/proximity-prize/proximity-prize)
-- Starred [przchojecki/rs-mca](https://github.com/przchojecki/rs-mca)
+- Starred [facebookresearch/tribev2](https://github.com/facebookresearch/tribev2)
 - Pushed 0 commits to [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter) — `commit`
-- Created branch `feat/private-pipeline-receipts` in [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter)
+- Pushed 0 commits to [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter) — `commit`
+- Starred [proximity-prize/proximity-prize](https://github.com/proximity-prize/proximity-prize)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Aug 26, 2026 · 10:06 AM EDT / 14:06 UTC · Next scheduled update: Aug 27, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: Aug 27, 2026 · 6:58 PM EDT / 22:58 UTC · Next scheduled update: Aug 28, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

@@ -252,11 +252,10 @@ I am highly research-curious, focusing on the intersection of **human physiology
 - Starred [hetpatel-11/Adobe_Premiere_Pro_MCP](https://github.com/hetpatel-11/Adobe_Premiere_Pro_MCP)
 - Starred [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft)
 - Starred [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
-- Starred [Nomadcxx/opencode-cursor](https://github.com/Nomadcxx/opencode-cursor)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Oct 5, 2026 · 5:07 PM EDT / 21:07 UTC · Next scheduled update: Oct 6, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: Oct 6, 2026 · 2:55 PM EDT / 18:55 UTC · Next scheduled update: Oct 7, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

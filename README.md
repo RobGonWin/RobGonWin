@@ -248,6 +248,7 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Starred [drchord/muse-plus](https://github.com/drchord/muse-plus)
 - Starred [baizo7/capcut_MCP_server-](https://github.com/baizo7/capcut_MCP_server-)
 - Starred [mrbuslov/capcut-ai-editor](https://github.com/mrbuslov/capcut-ai-editor)
 - Starred [CopilotKit/OpenDots](https://github.com/CopilotKit/OpenDots)
@@ -255,6 +256,6 @@ I am highly research-curious, focusing on the intersection of **human physiology
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Oct 27, 2026 · 2:43 PM EDT / 18:43 UTC · Next scheduled update: Oct 28, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: Oct 28, 2026 · 2:54 PM EDT / 18:54 UTC · Next scheduled update: Oct 29, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

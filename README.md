@@ -248,14 +248,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
-- Starred [drchord/muse-plus](https://github.com/drchord/muse-plus)
-- Starred [baizo7/capcut_MCP_server-](https://github.com/baizo7/capcut_MCP_server-)
-- Starred [mrbuslov/capcut-ai-editor](https://github.com/mrbuslov/capcut-ai-editor)
-- Starred [CopilotKit/OpenDots](https://github.com/CopilotKit/OpenDots)
+- Merged PR [pull request](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver/pulls) in [RobGonWin/national-heritage-fellow-longevity-archiver](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver)
+- Merged PR [pull request](https://github.com/RobGonWin/ancestry-archival-validation-expediter/pulls) in [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter)
+- Opened PR [pull request](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver/pulls) in [RobGonWin/national-heritage-fellow-longevity-archiver](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver)
+- Opened PR [pull request](https://github.com/RobGonWin/ancestry-archival-validation-expediter/pulls) in [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter)
+- Merged PR [pull request](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver/pulls) in [RobGonWin/national-heritage-fellow-longevity-archiver](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Oct 29, 2026 · 2:59 PM EDT / 18:59 UTC · Next scheduled update: Oct 30, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
+  <sub>Last auto-updated: Oct 30, 2026 · 2:39 PM EDT / 18:39 UTC · Next scheduled update: Oct 31, 2026 · 9:23 AM EDT / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

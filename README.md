@@ -248,15 +248,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Merged PR [pull request](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver/pulls) in [RobGonWin/national-heritage-fellow-longevity-archiver](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver)
+- Opened PR [pull request](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver/pulls) in [RobGonWin/national-heritage-fellow-longevity-archiver](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver)
 - Pushed 0 commits to [RobGonWin/national-heritage-fellow-longevity-archiver](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver) — `commit`
 - Pushed 0 commits to [RobGonWin/national-heritage-fellow-longevity-archiver](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver) — `commit`
-- Pushed 0 commits to [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter) — `commit`
-- Created branch `release/nea-publication-20261029` in [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter)
 - Pushed 0 commits to [RobGonWin/ancestry-archival-validation-expediter](https://github.com/RobGonWin/ancestry-archival-validation-expediter) — `commit`
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Nov 4, 2026 · 3:26 PM EST / 20:26 UTC · Next scheduled update: Nov 5, 2026 · 8:23 AM EST / 13:23 UTC</sub>
+  <sub>Last auto-updated: Nov 5, 2026 · 3:41 PM EST / 20:41 UTC · Next scheduled update: Nov 6, 2026 · 8:23 AM EST / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

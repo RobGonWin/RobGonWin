@@ -5,6 +5,9 @@
   "editArenaVisits": 463,
   "editArenaPlaying": 0,
   "editArenaFavorites": 25,
-  "updatedAt": "2026-11-13T19:46:32.143844+00:00",
-  "status": "ok"
+  "updatedAt": "2026-11-14T18:10:31.704336+00:00",
+  "status": "partial_error",
+  "errors": [
+    "followers: HTTP Error 503: Service Unavailable"
+  ]
 }

@@ -1,13 +1,10 @@
 {
   "robloxUserId": 19479054,
   "editArenaUniverseId": 5112018969,
-  "robloxFollowers": 1319,
+  "robloxFollowers": 1318,
   "editArenaVisits": 463,
   "editArenaPlaying": 0,
   "editArenaFavorites": 25,
-  "updatedAt": "2026-11-14T18:10:31.704336+00:00",
-  "status": "partial_error",
-  "errors": [
-    "followers: HTTP Error 503: Service Unavailable"
-  ]
+  "updatedAt": "2026-11-15T18:54:21.225597+00:00",
+  "status": "ok"
 }

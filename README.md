@@ -248,15 +248,15 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Pushed 0 commits to [RobGonWin/ancestrydna-longevity-imputator](https://github.com/RobGonWin/ancestrydna-longevity-imputator) — `commit`
+- Starred [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 - Starred [genepi/haplogrep3](https://github.com/genepi/haplogrep3)
 - Starred [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)
 - Starred [genepi/imputationserver2](https://github.com/genepi/imputationserver2)
-- Pushed 0 commits to [RobGonWin/national-heritage-fellow-longevity-archiver](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver) — `commit`
-- Created branch `public-capture-projection` in [RobGonWin/national-heritage-fellow-longevity-archiver](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Nov 15, 2026 · 2:23 PM EST / 19:23 UTC · Next scheduled update: Nov 16, 2026 · 8:23 AM EST / 13:23 UTC</sub>
+  <sub>Last auto-updated: Nov 16, 2026 · 5:55 PM EST / 22:55 UTC · Next scheduled update: Nov 17, 2026 · 8:23 AM EST / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

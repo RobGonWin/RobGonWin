@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=95&section=header&text=Robert%20Clark&fontSize=38&fontColor=111111&desc=Game%2FApp%20Developer%20%E2%80%A2%20Systems%20%2F%20Growth%20Engineer%20%E2%80%A2%20Analytics%20Builder&descSize=14&descAlignY=75&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=95&section=header&text=Robert%20Clark&fontSize=38&fontColor=111111&desc=Game%20Programmer%20%E2%80%A2%20Software%20Developer%20%E2%80%A2%20Independent%20Longevity%20Researcher&descSize=14&descAlignY=75&animation=fadeIn" />
 </p>
 
 <p align="center">
@@ -53,11 +53,12 @@
 
 <p align="center">
   <b>Platforms & Tooling</b><br />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-111111?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Beagle%20Imputation-111111?style=flat-square" alt="Beagle imputation" />
   <img src="https://img.shields.io/badge/AWS%20Cloud-111111?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Cloud" />
   <img src="https://img.shields.io/badge/Snowflake-111111?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake" />
   <img src="https://img.shields.io/badge/dbt-111111?style=flat-square&logo=dbt&logoColor=white" alt="dbt" />
   <img src="https://img.shields.io/badge/FastAPI-111111?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-111111?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions" />
 </p>
 
 <p align="center">
@@ -77,69 +78,74 @@
 
 ## Yooo, I'm Rob ☯ 👋
 
-I'm a systems-minded developer, analytics builder, and research-curious technologist with a B.S. in Information Technology and 8+ years of experience building measurable systems across Roblox / UGC platforms.
-
+I'm a self-directed game programmer, software developer, and independent longevity research enthusiast with a B.S. in Information Technology and 8+ years of experience building software systems. My work spans custom Luau game-engine architecture, AI-assisted development, genomic imputation tooling, and evidence-preserving digital archives.
 
 ### About My Work
-My work sits at the intersection of:
 
-- **Product + Growth analytics**
-- **Gameplay / LiveOps telemetry**
-- **Local-first AI workflow automation**
-- **Cloud-aware systems tooling**
-- **Human-centered computing**
-- **Biofeedback / neurofeedback research curiosity**
+I build systems that turn complicated information into outputs people can inspect, understand, and use:
 
-I build projects that connect **software systems, user behavior, data quality, and decision-making** — from live game telemetry and onboarding funnels to local-first AI workflows that help preserve focus, reduce context loss, and make developer activity more reviewable.
+- **Game programming:** custom Roblox / Luau systems, cinematic interfaces, and interactive experiences.
+- **Research software:** genomic data processing, reproducible imputation, and cautious longevity-variant interpretation.
+- **Digital archival preservation:** computational genealogy, source provenance, and historical evidence validation.
+- **Human-centered AI:** local-first applications, agentic automation, neurodivergent-aware computing, and experimental physiological feedback.
+
+Generating a Roblox cinematic comparison, evaluating SNP-array evidence, and preserving a historical record all call for the same engineering habits: modularity, validation, reproducibility, and careful state management. I like building the bridge between a complex process and a result someone else can verify.
 
 I am especially interested in:
 
-- 🧠 **AI-augmented workflows** for focus, context hygiene, and neurodivergent-aware productivity support  
-- 📊 **Product / growth analytics** across onboarding, retention, economy, acquisition, and LiveOps loops  
-- ⚙️ **Systems reliability** through clean APIs, state handling, workflow automation, and validation-first tooling  
-- 🧬 **Emerging research areas** like biofeedback, neurotechnology, cognitive science, longevity research, and human-centered AI  
+- 🧬 **Longevity genetics:** reference-panel evaluation, genotype uncertainty, and the evidence behind population-level associations.
+- 🌍 **Familial longevity research:** centenarian descendants and underrepresented ancestral populations, with attention to what the data can actually support.
+- 🤖 **Agentic AI:** literature review and archival validation that retain traceable sources and human review.
+- 🎮 **Interactive systems:** Luau game engines, procedural experiences, and performant cinematic UI.
+- 🧠 **Adaptive interfaces:** consent-first physiological feedback and software that supports different cognitive profiles.
 
 ### 🧠 Current Focus & Research Interests
 
-I am highly research-curious, focusing on the intersection of **human physiology, artificial intelligence, and systems resilience**. My goal is to build environments that reduce friction, support neurodivergent profiles, and elevate human output.
+I'm developing reproducible genomic imputation and longevity-evidence workflows through **[AncestryDNA Longevity Imputator](https://github.com/RobGonWin/ancestrydna-longevity-imputator)**, alongside the **[National Heritage Fellow Longevity Archiver](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver)** and **[Ancestry Archival Validation Expediter (AAVE)](https://github.com/RobGonWin/ancestry-archival-validation-expediter)**. In parallel, I continue building **1v1 Edit Arena** and **[Deving Gene](https://github.com/RobGonWin/deving-gene)**, exploring how complex interactive systems can remain maintainable and how AI can support focus without taking away user control.
 
-> **Status:** I am currently building **[Deving Gene](https://github.com/RobGonWin/deving-gene)** as my primary focus while actively seeking full-time roles across Data Analytics, Systems Engineering, and AI Platform integration.
+My current genomics work distinguishes observed SNP-array calls, imputed genotypes, and research hypotheses. Whole-genome and whole-exome sequencing (WGS/WES), rare and regulatory variant prioritization, and multi-omics comparisons are future research directions. Physiological telemetry and adaptive feedback interfaces also remain areas of investigation.
 
+### 🧬 Why Longevity Research Is Personal
 
-* **Physiological Telemetry & Biofeedback:** I am actively researching how to integrate real-time EEG and EKG data streams to monitor cognitive load and flow states. I am particularly interested in the application of devices like the **Polar H10, Muse S Athena, BrainAccess HALO, and other upcoming devices** to create adaptive, local-first environments that provide metacognitive scaffolding.
+My interest in computational longevity research is rooted in family history. My paternal great-grandfather, **[Elder Roma Wilson](https://www.arts.gov/honors/heritage/elder-roma-wilson)**, was a semi-supercentenarian **1994 National Heritage Fellow** who lived to 107. My extended family tree also includes my great aunt-in-law, **[Bettie Rutherford Wilson](https://longeviquest.com/supercentenarian/bettie-wilson/)**, a validated supercentenarian connected through marriage, whose documented exceptional longevity adds another dimension to my family-history research. Elder Roma Wilson's legacy inspired my efforts to connect genomic evidence, genealogical records, and historical preservation through reproducible software.
 
+I sometimes describe this intersection as **Singu-centitarian** — my own term for the meeting point of technological-era computing, centenarian heritage, and the preservation of knowledge across generations.
+
+Through my [AncestryDNA Longevity Imputator](https://github.com/RobGonWin/ancestrydna-longevity-imputator) and [National Heritage Fellow Longevity Archive](https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver), I'm developing a bridge between **archival longevity validation and computational genomics**, progressing from consumer SNP-array analysis and reference-panel-based imputation toward future privacy-conscious WGS, AI-assisted prioritization of rare and regulatory variants, and comparative investigation of familial centenarian and supercentenarian datasets. I'm especially interested in how underrepresented ancestral populations, longevity-associated genetic variation, and eventually multi-omics evidence might reveal overlooked research questions.
+
+Family history motivates these questions; it does not establish inherited protective variants or predict lifespan. My archive is independent of the NEA, and comparisons remain bounded by their sources and validation assumptions. The [National Archives fellowship record](https://catalog.archives.gov/id/23902669) is part of the historical source chain.
 
 ## 🚧 Featured Work
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/RobGonWin/deving-gene" style="color: inherit; text-decoration: none;">Deving Gene</a></h3>
-      <p>A consent-first workflow system designed to support neurodivergent focus. It combines Python/FastAPI services, local dashboards, and AWS/Alexa IoT integration. Built to utilize LLMs to sanitize SSML and leverage RAG for dynamic understanding of user states and flow preservation.</p>
-      <p><b>Stack:</b> Python, JavaScript, Alexa, GitHub Actions</p>
-      <a href="https://github.com/RobGonWin/deving-gene"><b>View Repository ➔</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎮 <a href="https://www.roblox.com/games/14835231599/1v1-Edit-Arena" style="color: inherit; text-decoration: none;">1v1 Edit Arena</a></h3>
-      <p>Self-started UGC experience powered by a fully custom engine written in Luau from scratch. Engineered with end-to-end telemetry instrumented across onboarding, economy, retention, acquisition, and gameplay telemetry.</p>
-      <p><b>Signals:</b> 389% performance increase, 84% FTUE completion, 13.5m play-time</p>
-      <a href="https://www.roblox.com/games/14835231599/1v1-Edit-Arena"><b>Play / View ➔</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📊 <a href="https://github.com/RobGonWin/opendota-liveops-telemetry-warehouse" style="color: inherit; text-decoration: none;">OpenDota LiveOps Warehouse</a></h3>
-      <p>Bounded telemetry warehouse pipeline modeling hero stability, volatility, watchlists, and returning-player proxies for stakeholder-ready LiveOps review.</p>
-      <p><b>Stack:</b> Python, Snowflake, dbt, Tableau-ready exports</p>
-      <a href="https://github.com/RobGonWin/opendota-liveops-telemetry-warehouse"><b>View Repository ➔</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧬 <a href="https://github.com/RobGonWin/biofeedback-signal-lab" style="color: inherit; text-decoration: none;">Biofeedback Signal Lab</a></h3>
-      <p>Local-first biosignal analytics workflow focused on window coverage checks, pipeline validation, curated tables, and cautious non-diagnostic review.</p>
-      <p><b>Stack:</b> PhysioNet, DuckDB, dbt, Streamlit</p>
-      <a href="https://github.com/RobGonWin/biofeedback-signal-lab"><b>View Repository ➔</b></a>
-    </td>
-  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧬 <a href="https://github.com/RobGonWin/ancestrydna-longevity-imputator">AncestryDNA Longevity Imputator</a></h3>
+      <p>Evidence-preserving research toolkit converting AncestryDNA SNP-array data into validated GRCh37 VCF and reproducible imputation workflows. Compares reference panels and imputation sources, curates longevity-variant evidence, and tracks provenance and uncertainty with public/private data separation.</p>
+      <p><b>Methods:</b> Python, VCF validation, local Beagle imputation, reference-panel comparisons</p>
+      <a href="https://github.com/RobGonWin/ancestrydna-longevity-imputator"><b>View Repository ➔</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏛️ <a href="https://github.com/RobGonWin/national-heritage-fellow-longevity-archiver">NEA Fellow Longevity Archive</a></h3>
+      <p>Independent archival research comparing documented longevity among National Heritage Fellows, including Elder Roma Wilson. Uses traceable sources, source-bound age validation, distinct documented and conditional evidence, reproducible datasets, and an interactive public explorer.</p>
+      <p><b>Methods:</b> Python, archival provenance, CSV / JSON datasets, static web explorer</p>
+      <a href="https://robgonwin.github.io/national-heritage-fellow-longevity-archiver/site/"><b>Explore Archive ➔</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/RobGonWin/deving-gene">Deving Gene</a></h3>
+      <p>A consent-first workflow system in development to support neurodivergent focus. Combines Python/FastAPI services, local dashboards, and AWS/Alexa IoT integration, with AI-assisted SSML sanitization and retrieval-augmented workflows for user-state interpretation and focus preservation.</p>
+      <p><b>Stack:</b> Python, JavaScript, Alexa, GitHub Actions</p>
+      <a href="https://github.com/RobGonWin/deving-gene"><b>View Repository ➔</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎮 <a href="https://www.roblox.com/games/14835231599/1v1-Edit-Arena">1v1 Edit Arena</a></h3>
+      <p>A self-started Roblox experience built on custom Luau systems. EditSystemv2 / SceneCompiler work explores cinematic versus-edit generation, scripted UI effects, dynamic stat comparisons, and viewport scene projection, with careful performance and state handling. Newer UI and replication work is experimental.</p>
+      <p><b>Stack:</b> Luau, Roblox Studio, custom game-engine architecture</p>
+      <a href="https://www.roblox.com/games/14835231599/1v1-Edit-Arena"><b>Play / View ➔</b></a>
+    </td>
+  </tr>
 </table>
 
 
@@ -242,7 +248,7 @@ I am highly research-curious, focusing on the intersection of **human physiology
 ---
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=RobGonWin&background=000000&border=333333&stroke=333333&ring=0070F3&fire=0070F3&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=0070F3&sideLabels=888888&dates=555555"" width="48%" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=RobGonWin&background=000000&border=333333&stroke=333333&ring=0070F3&fire=0070F3&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=0070F3&sideLabels=888888&dates=555555" width="48%" alt="GitHub Streak" />
 </div>
 
 ---

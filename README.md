@@ -254,15 +254,15 @@ Family history motivates these questions; it does not establish inherited protec
 ---
 
 <!--RECENT_ACTIVITY:start-->
+- Starred [google-deepmind/science-skills](https://github.com/google-deepmind/science-skills)
 - Pushed 1 commit to [RobGonWin/RobGonWin](https://github.com/RobGonWin/RobGonWin)
 - Pushed 1 commit to [RobGonWin/RobGonWin](https://github.com/RobGonWin/RobGonWin)
 - Pushed 1 commit to [RobGonWin/ancestrydna-longevity-imputator](https://github.com/RobGonWin/ancestrydna-longevity-imputator)
 - Starred [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
-- Starred [genepi/haplogrep3](https://github.com/genepi/haplogrep3)
 <!--RECENT_ACTIVITY:end-->
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Nov 23, 2026 · 7:59 PM EST / 00:59 UTC · Next scheduled update: Nov 24, 2026 · 8:23 AM EST / 13:23 UTC</sub>
+  <sub>Last auto-updated: Nov 24, 2026 · 6:03 PM EST / 23:03 UTC · Next scheduled update: Nov 25, 2026 · 8:23 AM EST / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->

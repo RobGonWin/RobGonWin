@@ -263,6 +263,6 @@ Family history motivates these questions; it does not establish inherited protec
 
 <!--PROFILE_UPDATE:start-->
 <p align="center">
-  <sub>Last auto-updated: Nov 26, 2026 · 5:24 PM EST / 22:24 UTC · Next scheduled update: Nov 27, 2026 · 8:23 AM EST / 13:23 UTC</sub>
+  <sub>Last auto-updated: Nov 27, 2026 · 5:04 PM EST / 22:04 UTC · Next scheduled update: Nov 28, 2026 · 8:23 AM EST / 13:23 UTC</sub>
 </p>
 <!--PROFILE_UPDATE:end-->
